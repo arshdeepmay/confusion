@@ -18,6 +18,13 @@ body{
     min-height: 16rem;
 }
 
+#carousel-btn{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+}
+
 .row-header{
     margin:0px auto;
     padding:0px;
@@ -58,3 +65,4 @@ address{
     margin: 2% auto 0 auto;
     padding: 20px 0px 20px 0px;
 }
+
