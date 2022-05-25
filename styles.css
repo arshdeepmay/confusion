@@ -1,3 +1,4 @@
+
 .row-header {
   margin: 0px auto;
   padding: 0px 0px; }
@@ -20,7 +21,7 @@
   margin: 0px auto;
   padding: 70px 30px;
   background: #9575CD;
-  color: #d4c8eb; }
+  color: whitesmoke; }
 
 address {
   font-size: 80%;
@@ -47,6 +48,14 @@ address {
 #carousel-btn {
   right: 0px;
   bottom: 0px;
-  position: absolute; 
-  z-index: 1;
-}
+  position: absolute;
+  z-index: 1; }
+
+.modal-header {
+  background: #9575CD; }
+
+.modal-body {
+  background: #d4c8eb; }
+
+.x {
+  background: #d4c8eb; }

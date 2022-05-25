@@ -1,6 +1,6 @@
 $background-dark: #9575CD;
 $background-light: #d4c8eb;
-$height: 16 rem;
+$height: 300px;
 
 @mixin zero-margin($pad-up-dn,$pad-lt-rt){
     margin: 0px auto;
@@ -64,4 +64,18 @@ address{
     right: 0px;
     bottom: 0px;
     position: absolute;
+    z-index: 1;
 }
+
+.modal-header{
+    background: $background-dark;
+}
+
+.modal-body{
+    background: $background-light;
+}
+
+.x{
+    background: $background-light;
+}
+

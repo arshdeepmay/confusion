@@ -15,4 +15,29 @@ $(function(){
             $("#carousel-btn").children("span").children("i").addClass("fa-play"); 
         }
     })
+
+    $("#tableButton").on("click",function(){
+        $("#modaltable").modal("show");
+    })
+
+    $("#modalclose").on("click",function(){
+        $("#modaltable").modal("hide");
+    })    
+
+    $("#modalCancel").on("click",function(){
+        $("#modaltable").modal("hide");
+    })
+
+    $("#loginClick").on("click",function(){
+        $("#loginModal").modal("show");
+    })
+
+    $("#loginCancel").on("click",function(){
+        $("#loginModal").modal("hide");
+    })
+
+    $("#loginClose").on("click",function(){
+        $("#loginModal").modal("hide");
+    })
+
 });
