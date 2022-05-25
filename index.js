@@ -1,6 +1,6 @@
 $(function(){
 
-    $(".carousel").carousel({interval:2000});
+    $("#carouselExampleCaptions").carousel({interval:2000});
 
     $("#carousel-btn").on("click",function(){
         if($("#carousel-btn").children("span").children("i").hasClass("fa-play")){

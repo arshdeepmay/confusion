@@ -1,0 +1,67 @@
+$background-dark: #9575CD;
+$background-light: #d4c8eb;
+$height: 16 rem;
+
+@mixin zero-margin($pad-up-dn,$pad-lt-rt){
+    margin: 0px auto;
+    padding: $pad-up-dn $pad-lt-rt;
+}
+
+.row-header{
+    @include zero-margin(0px,0px);
+}
+
+.row-content{
+    @include zero-margin(50px,0px);
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.small-margin{
+    margin-top: 1%;
+    margin-left: 11%;
+}
+
+.container-fluid{
+    margin: 0 10% 0 12%;
+    max-width: fit-content;
+}
+
+.jumbotron{
+    @include zero-margin(70px, 30px);
+    background: $background-dark;
+    color: $background-light
+}
+
+address{
+    font-size:80%;
+    margin:0px; 
+}
+
+.footer{
+    @include zero-margin(20px, 0);
+    background: $background-light;
+}
+
+.navbar-dark{
+    background-color: $background-dark;
+}
+
+.carousel{
+    background: $background-dark;
+    .carousel-item{
+        height: $height;
+        img{
+            position: absolute;
+            top:0;
+            left:0;
+            min-height: 300px;
+        }
+    }
+}
+
+#carousel-btn{
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
+}

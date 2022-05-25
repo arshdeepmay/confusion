@@ -1,68 +1,52 @@
-body{
-    padding:50px 0px 0px 0px;
-    z-index:0;
-}
-
-.carousel{
-    background-color: #9575CD;
-}
-
-.carousel-item{
-    height: 16rem;
-}
-
-.carousel-item img{
-    position: absolute;
-    top:0;
-    left:0;
-    min-height: 16rem;
-}
-
-#carousel-btn{
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    z-index: 1;
-}
-
-.row-header{
-    margin:0px auto;
-    padding:0px;
-}
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
 
 .row-content {
-    margin:0px auto;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
-    min-height:400px;
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
+
+.small-margin {
+  margin-top: 1%;
+  margin-left: 11%; }
+
+.container-fluid {
+  margin: 0 10% 0 12%;
+  max-width: fit-content; }
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #9575CD;
+  color: #d4c8eb; }
+
+address {
+  font-size: 80%;
+  margin: 0px; }
+
+.footer {
+  margin: 0px auto;
+  padding: 20px 0;
+  background: #d4c8eb; }
+
+.navbar-dark {
+  background-color: #9575CD; }
+
+.carousel {
+  background: #9575CD; }
+  .carousel .carousel-item {
+    height: 300px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px; }
+
+#carousel-btn {
+  right: 0px;
+  bottom: 0px;
+  position: absolute; 
+  z-index: 1;
 }
-
-
-.small-margin{
-    margin-top: 1%;
-    margin-left: 11%;
-}
-
-.container-fluid{
-    margin: 0 10% 0 12%;
-    max-width: fit-content;
-}
-
-.jumbotron{
-    padding:70px 30px 70px 0;
-    margin:0px auto;
-    background: #9575CD ;
-    color:floralwhite;
-}
-
-address{
-    font-size:80%;
-    margin:0px; 
-}
-
-.footer{
-    background: #d4c8eb ;
-    margin: 2% auto 0 auto;
-    padding: 20px 0px 20px 0px;
-}
-
