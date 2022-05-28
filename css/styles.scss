@@ -7,6 +7,10 @@ $height: 300px;
     padding: $pad-up-dn $pad-lt-rt;
 }
 
+a{
+    color: black;
+}
+
 .row-header{
     @include zero-margin(0px,0px);
 }
@@ -30,7 +34,7 @@ $height: 300px;
 .jumbotron{
     @include zero-margin(70px, 30px);
     background: $background-dark;
-    color: $background-light
+    color: floralwhite;
 }
 
 address{
@@ -67,15 +71,28 @@ address{
     z-index: 1;
 }
 
-.modal-header{
-    background: $background-dark;
+.modal-content{
+
+    .modal-header{
+        background: $background-dark;
+        .modal-title{
+            color: floralwhite;
+        }
+        .close{
+            color:floralwhite;
+        }
+    }
+    
+    .modal-body{
+        background: $background-light;
+        .close{
+            .x{
+                background: $background-light;
+            }
+        }
+    }
+
 }
 
-.modal-body{
-    background: $background-light;
-}
 
-.x{
-    background: $background-light;
-}
 

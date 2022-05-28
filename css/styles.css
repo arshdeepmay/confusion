@@ -1,3 +1,5 @@
+a {
+  color: black; }
 
 .row-header {
   margin: 0px auto;
@@ -21,7 +23,7 @@
   margin: 0px auto;
   padding: 70px 30px;
   background: #9575CD;
-  color: whitesmoke; }
+  color: floralwhite; }
 
 address {
   font-size: 80%;
@@ -51,11 +53,14 @@ address {
   position: absolute;
   z-index: 1; }
 
-.modal-header {
+.modal-content .modal-header {
   background: #9575CD; }
+  .modal-content .modal-header .modal-title {
+    color: floralwhite; }
+  .modal-content .modal-header .close {
+    color: floralwhite; }
 
-.modal-body {
+.modal-content .modal-body {
   background: #d4c8eb; }
-
-.x {
-  background: #d4c8eb; }
+  .modal-content .modal-body .close .x {
+    background: #d4c8eb; }
